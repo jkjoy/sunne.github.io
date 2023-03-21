@@ -6,7 +6,7 @@
   <link href="https://www.chaihu.top/atom.xml" rel="self"/>
   
   <link href="https://www.chaihu.top/"/>
-  <updated>2023-03-21T11:05:38.963Z</updated>
+  <updated>2023-03-21T11:27:14.503Z</updated>
   <id>https://www.chaihu.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.chaihu.top/2023/Git%E5%9C%A8windows%E4%B8%8B%E5%8C%BA%E5%88%86%E5%A4%A7%E5%B0%8F%E5%86%99/"/>
     <id>https://www.chaihu.top/2023/Git%E5%9C%A8windows%E4%B8%8B%E5%8C%BA%E5%88%86%E5%A4%A7%E5%B0%8F%E5%86%99/</id>
     <published>2023-03-21T11:03:13.000Z</published>
-    <updated>2023-03-21T11:05:38.963Z</updated>
+    <updated>2023-03-21T11:27:14.503Z</updated>
     
     <content type="html"><![CDATA[<p>在<code>.deploy_git</code>目录下运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config core.ignorecase <span class="literal">false</span></span><br></pre></td></tr></table></figure><p>可解决github pages 下CNAME被改为小写导致绑定域名失效的情况</p>]]></content>
     
@@ -34,6 +34,10 @@
     
     
     
+    <category term="测试" scheme="https://www.chaihu.top/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="git" scheme="https://www.chaihu.top/tags/git/"/>
     
   </entry>
   
