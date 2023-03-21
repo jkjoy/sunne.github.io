@@ -17,11 +17,11 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>同一虚拟主机如何实现指定域名跳转指定目录 | 柴湖</title>
+  <title>同一虚拟主机如何实现指定域名跳转指定目录 | 大柴湖</title>
   <meta name="description" content="想用手中的几个域名做多个网站，将所有的域名绑定到虚拟主机上，然后将虚拟主机根目录中的index.php中添加以下代码    或用JS实现一个空间安装多个网站的方法 1、在空间上分别绑定www.aaa.com和www.bbb.com 2、把www.aaa.com网站文件传到根目录，把www.bbb.com 网站传到 .&#x2F;bbb&#x2F; 目录 3、 把下面的代码保存为 domain.js ，然后上传到空间根">
 <meta property="og:type" content="article">
 <meta property="og:title" content="同一虚拟主机如何实现指定域名跳转指定目录">
-<meta property="og:url" content="https://jkjoy.github.io/2016/12/28/%E5%90%8C%E4%B8%80%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%8C%87%E5%AE%9A%E5%9F%9F%E5%90%8D%E8%B7%B3%E8%BD%AC%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95/index.html">
+<meta property="og:url" content="https://www.chaihu.top/2016/12/28/%E5%90%8C%E4%B8%80%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%8C%87%E5%AE%9A%E5%9F%9F%E5%90%8D%E8%B7%B3%E8%BD%AC%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95/index.html">
 <meta property="og:site_name" content="jkjoy">
 <meta property="og:description" content="想用手中的几个域名做多个网站，将所有的域名绑定到虚拟主机上，然后将虚拟主机根目录中的index.php中添加以下代码    或用JS实现一个空间安装多个网站的方法 1、在空间上分别绑定www.aaa.com和www.bbb.com 2、把www.aaa.com网站文件传到根目录，把www.bbb.com 网站传到 .&#x2F;bbb&#x2F; 目录 3、 把下面的代码保存为 domain.js ，然后上传到空间根">
 <meta property="og:locale" content="zh_CN">
@@ -29,12 +29,12 @@
 <meta property="article:modified_time" content="2023-03-21T03:10:21.915Z">
 <meta property="article:author" content="Jkjoy">
 <meta property="article:tag" content="虚拟主机">
-<meta property="article:tag" content="笔记">
 <meta property="article:tag" content="域名">
+<meta property="article:tag" content="笔记">
 <meta property="article:tag" content="绑定">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://jkjoy.github.io/2016/12/28/%E5%90%8C%E4%B8%80%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%8C%87%E5%AE%9A%E5%9F%9F%E5%90%8D%E8%B7%B3%E8%BD%AC%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95/index.html">
+  <link rel="canonical" href="https://www.chaihu.top/2016/12/28/%E5%90%8C%E4%B8%80%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%8C%87%E5%AE%9A%E5%9F%9F%E5%90%8D%E8%B7%B3%E8%BD%AC%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95/index.html">
   
     <link rel="alternate" href="/atom.xml" title="jkjoy" type="application/atom+xml">
   
@@ -62,8 +62,8 @@
           <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm">老孙</h2>
-        <h3 id="title" class="hidden-xs hidden-sm hidden-md">网虫</h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> ZhuHai, China</small>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">资深网虫</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Hubei, China</small>
       </div>
       
       <div class="search" id="search-form-wrap">
@@ -156,7 +156,7 @@
 	
     <ul class="social-links">
     	
-        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        <li><a href="http://weibo.com/sunpw" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
         
         <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
         
@@ -360,7 +360,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://jkjoy.github.io/2016/12/28/%E5%90%8C%E4%B8%80%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%8C%87%E5%AE%9A%E5%9F%9F%E5%90%8D%E8%B7%B3%E8%BD%AC%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95/" title="同一虚拟主机如何实现指定域名跳转指定目录" target="_blank" rel="external">https://jkjoy.github.io/2016/12/28/同一虚拟主机如何实现指定域名跳转指定目录/</a>
+      <a href="https://www.chaihu.top/2016/12/28/%E5%90%8C%E4%B8%80%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%8C%87%E5%AE%9A%E5%9F%9F%E5%90%8D%E8%B7%B3%E8%BD%AC%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95/" title="同一虚拟主机如何实现指定域名跳转指定目录" target="_blank" rel="external">https://www.chaihu.top/2016/12/28/同一虚拟主机如何实现指定域名跳转指定目录/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -379,7 +379,7 @@
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://www.chaihu.top" target="_blank"><span class="text-dark">老孙</span><small class="ml-1x">网虫</small></a></h3>
+        <h3 class="media-heading"><a href="https://www.chaihu.top" target="_blank"><span class="text-dark">老孙</span><small class="ml-1x">资深网虫</small></a></h3>
         <div>生于斯，长于斯。</div>
       </div>
     </figure>
@@ -485,7 +485,7 @@
 	
     <ul class="social-links">
     	
-        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        <li><a href="http://weibo.com/sunpw" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
         
         <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
         
