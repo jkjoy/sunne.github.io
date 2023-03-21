@@ -6,7 +6,7 @@
   <link href="https://www.chaihu.top/atom.xml" rel="self"/>
   
   <link href="https://www.chaihu.top/"/>
-  <updated>2023-01-11T02:15:24.000Z</updated>
+  <updated>2023-03-21T11:05:38.963Z</updated>
   <id>https://www.chaihu.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git在windows下区分大小写</title>
+    <link href="https://www.chaihu.top/2023/Git%E5%9C%A8windows%E4%B8%8B%E5%8C%BA%E5%88%86%E5%A4%A7%E5%B0%8F%E5%86%99/"/>
+    <id>https://www.chaihu.top/2023/Git%E5%9C%A8windows%E4%B8%8B%E5%8C%BA%E5%88%86%E5%A4%A7%E5%B0%8F%E5%86%99/</id>
+    <published>2023-03-21T11:03:13.000Z</published>
+    <updated>2023-03-21T11:05:38.963Z</updated>
+    
+    <content type="html"><![CDATA[<p>在<code>.deploy_git</code>目录下运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config core.ignorecase <span class="literal">false</span></span><br></pre></td></tr></table></figure><p>可解决github pages 下CNAME被改为小写导致绑定域名失效的情况</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在&lt;code&gt;.deploy_git&lt;/code&gt;目录下运行&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>魔趣倒了 安卓的刷机时代正式宣布结束了</title>
@@ -502,32 +523,6 @@
     <category term="macos" scheme="https://www.chaihu.top/tags/macos/"/>
     
     <category term="homebrew" scheme="https://www.chaihu.top/tags/homebrew/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下本地安装包命令</title>
-    <link href="https://www.chaihu.top/2022/2022-07-27-Linux%E4%B8%8B%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85%E5%8C%85%E5%91%BD%E4%BB%A4/"/>
-    <id>https://www.chaihu.top/2022/2022-07-27-Linux%E4%B8%8B%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85%E5%8C%85%E5%91%BD%E4%BB%A4/</id>
-    <published>2022-07-27T02:39:00.000Z</published>
-    <updated>2022-09-28T02:29:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="centos下安装RPM安装包"><a href="#centos下安装RPM安装包" class="headerlink" title="centos下安装RPM安装包"></a>centos下安装RPM安装包</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum localinstall file.rpm</span><br></pre></td></tr></table></figure><h2 id="ubuntu下安装deb安装包"><a href="#ubuntu下安装deb安装包" class="headerlink" title="ubuntu下安装deb安装包"></a>ubuntu下安装deb安装包</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -i 安装包名称.deb</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;centos下安装RPM安装包&quot;&gt;&lt;a href=&quot;#centos下安装RPM安装包&quot; class=&quot;headerlink&quot; title=&quot;centos下安装RPM安装包&quot;&gt;&lt;/a&gt;centos下安装RPM安装包&lt;/h2&gt;&lt;figure class=&quot;highli</summary>
-      
-    
-    
-    
-    <category term="分享" scheme="https://www.chaihu.top/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="命令" scheme="https://www.chaihu.top/tags/%E5%91%BD%E4%BB%A4/"/>
-    
-    <category term="linux" scheme="https://www.chaihu.top/tags/linux/"/>
     
   </entry>
   
